@@ -158,7 +158,7 @@ const GameCounterApp: React.FC = () => {
           {!gameStarted && (
             <>
               <div className="flex items-center p-4 border rounded-md bg-white shadow-sm focus-within:shadow-md transition-shadow">
-                <span className="text-2xl mr-4 rounded-full border border-gray-300 p-1">🐟</span>
+                <span className="text-2xl mr-4 rounded-full border border-gray-300 p-1">➕</span>
                 <input
                   type="text"
                   value={newPlayerName}
