@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Game Counter App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The **Game Counter App** is a web-based application designed to help you keep track of scores for various games. Built with React, TypeScript, and Tailwind CSS, this app is ideal for casual game nights or competitive events where keeping accurate scores is essential.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Add and Customize Players**: Add new players and customize their names with ease.
+- **Track Points**: Select players and increment their points with a single click.
+- **Round Progress**: Visual progress bar indicating the current round in relation to the total phases.
+- **Responsive UI**: Optimized for both desktop and mobile devices.
+- **Dynamic Winner Announcement**: At the end of the game, the app announces the winner(s) and displays a congratulatory message.
+- **Interactive UI Elements**: Highlights the selected player and ensures seamless interactions throughout.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React**: For building the user interface.
+- **TypeScript**: To enhance code reliability and maintainability.
+- **Tailwind CSS**: For quick and efficient styling.
+- **Heroicons**: For modern and responsive icons.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Demo
 
-### `npm test`
+Check out the live demo of the app [here](https://game-counter-phi.vercel.app).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## How to Run Locally
 
-### `npm run build`
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/game-counter-app.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd game-counter-app
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm start
+   ```
+5. Open your browser and go to `http://localhost:3000` to view the app.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Screenshots
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Screenshot of the Game Counter App](./Screenshot-Game-Counter.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## License
 
-### `npm run eject`
+This project is licensed under the MIT License.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contributions
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Contributions are welcome! Please submit a pull request or open an issue to discuss potential changes.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Enjoy using the **Game Counter App** for all your game tracking needs!
