@@ -26,7 +26,7 @@ Check out the live demo of the app [here](https://game-counter-phi.vercel.app).
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/game-counter-app.git
+   git clone https://github.com/yefga/game-counter-app.git
    ```
 2. Navigate to the project directory:
    ```bash
